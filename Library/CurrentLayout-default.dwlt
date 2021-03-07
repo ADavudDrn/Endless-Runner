@@ -48,7 +48,7 @@ MonoBehaviour:
   m_MinSize: {x: 679, y: 492}
   m_MaxSize: {x: 14002, y: 14042}
   vertical: 0
-  controlID: 60
+  controlID: 127
 --- !u!114 &3
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -221,7 +221,7 @@ MonoBehaviour:
   m_MinSize: {x: 403, y: 492}
   m_MaxSize: {x: 10001, y: 14042}
   vertical: 1
-  controlID: 61
+  controlID: 103
 --- !u!114 &10
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -246,7 +246,7 @@ MonoBehaviour:
   m_MinSize: {x: 403, y: 221}
   m_MaxSize: {x: 8003, y: 4021}
   vertical: 0
-  controlID: 102
+  controlID: 104
 --- !u!114 &11
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -475,17 +475,17 @@ MonoBehaviour:
     m_SkipHidden: 0
     m_SearchArea: 1
     m_Folders:
-    - Assets/Scenes
+    - Assets/Scripts/Player
   m_ViewMode: 1
   m_StartGridSize: 60
   m_LastFolders:
-  - Assets/Scenes
+  - Assets/Scripts/Player
   m_LastFoldersGridSize: 60
-  m_LastProjectPath: E:\Unity Projects\Endless Game
+  m_LastProjectPath: E:\Repository\Endless Runner
   m_LockTracker:
     m_IsLocked: 0
   m_FolderTreeState:
-    scrollPos: {x: 0, y: 6}
+    scrollPos: {x: 0, y: 0}
     m_SelectedIDs: ac3f0000
     m_LastClickedID: 16300
     m_ExpandedIDs: 00000000a03f0000aa3f000000ca9a3b
@@ -751,7 +751,7 @@ MonoBehaviour:
   m_Rotation:
     m_Target: {x: 0.27910817, y: 0.18294239, z: -0.054257855, w: 0.9411131}
     speed: 2
-    m_Value: {x: 0.27910718, y: 0.18294173, z: -0.05425766, w: 0.9411098}
+    m_Value: {x: -0.27910817, y: -0.18294238, z: 0.05425785, w: -0.94111305}
   m_Size:
     m_Target: 9.026554
     speed: 2
@@ -839,7 +839,7 @@ MonoBehaviour:
     m_VAllowExceedBaseRangeMax: 1
     m_ScaleWithWindow: 0
     m_HSlider: 0
-    m_VSlider: 0
+    m_VSlider: 1
     m_IgnoreScrollWheelUntilClicked: 0
     m_EnableMouseInput: 1
     m_EnableSliderZoomHorizontal: 0
@@ -852,7 +852,7 @@ MonoBehaviour:
       y: 21
       width: 1118
       height: 614
-    m_Scale: {x: 0.7675, y: 0.7675}
+    m_Scale: {x: 0.79375, y: 0.79375}
     m_Translation: {x: 559, y: 307}
     m_MarginLeft: 0
     m_MarginRight: 0
@@ -860,12 +860,12 @@ MonoBehaviour:
     m_MarginBottom: 0
     m_LastShownAreaInsideMargins:
       serializedVersion: 2
-      x: -728.3388
-      y: -400
-      width: 1456.6776
-      height: 800
+      x: -704.25195
+      y: -386.77167
+      width: 1408.5039
+      height: 773.54333
     m_MinimalGUI: 1
-  m_defaultScale: 0.7675
+  m_defaultScale: 0.79375
   m_LastWindowPixelSize: {x: 1118, y: 635}
   m_ClearInEditMode: 1
   m_NoCameraWarning: 1
